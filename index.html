@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+<body>
+    <nav>
+        <a>Header</a>
+        <div id="left-container">
+            <a>Signup</a>
+            <a href="./profile.html">Profile</a>
+        </div>
+    </nav>
+    <form>
+        <h1>Signup</h1>
+        <input type="text" id="name" placeholder="Full Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <input type="password" id="confirm-password" placeholder="Confirm Password">
+        <p id="error-message"></p>
+        <p id="success-message"></p>
+        <button id="signupBtn" type="submit">Signup</button>
+    </form>
+    <script src="./signup-script.js"></script>
+</body>
+</html>
